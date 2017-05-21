@@ -234,7 +234,7 @@ export default class Headroom extends Component {
     const { style, wrapperStyle, ...rest } = divProps
 
     let innerStyle = {
-      position: this.props.disable || this.state.state === 'unfixed' ? 'relative' : 'fixed',
+      position: 'fixed',
       top: 0,
       left: 0,
       right: 0,
